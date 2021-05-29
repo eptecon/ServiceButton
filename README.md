@@ -2,7 +2,7 @@ ServiceButton: Connected Button for Notifications and Alarms
 ======
 
 WiFi connected button that sends push notification data to an IoT platform. The notifications can be configured depending on use case.
-Possible business cases are presented [here](https://github.com/eptecon/service_button/tree/master/Docs).
+Possible business cases are presented [here](https://github.com/eptecon/ServiceButton/tree/master/Docs).
 
 
 ### Hardware
