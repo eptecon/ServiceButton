@@ -1,0 +1,18 @@
+ServiceButton: Connected Button for Notifications and Alarms
+======
+
+WiFi connected button that sends push notification data to an IoT platform. The notifications can be configured depending on use case.
+Possible business cases are presented [here](https://github.com/eptecon/service_button/tree/master/Docs).
+
+
+### Hardware
+
+ESP32 Microcontroller, simple push button, rechargeable battery.
+
+### Firmware
+
+Device is on and connected to the internet over WiFI. When button pressed, a notification message is composed from previously configured
+data. The notification message is then sent in JSON format via TLS-secured MQTT protocol to a cloud application software, ([GlueLogics](https://github.com/eptecon/gluelogics)).
+
+
+---
