@@ -11,7 +11,7 @@ ESP32 Microcontroller, simple push button, rechargeable battery.
 
 ### Firmware
 
-Device is on and connected to the internet over WiFI. When button pressed, a notification message is composed from previously configured
+The deevice connects with a server over WLAN. When button pressed, a notification message is composed from previously configured
 data. The notification message is then sent in JSON format via TLS-secured MQTT protocol to the cloud service ([GlueLogics](https://github.com/eptecon/gluelogics)).
 
 
